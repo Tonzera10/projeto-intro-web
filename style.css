@@ -31,7 +31,7 @@ header{
 
 #titulo{
     width: 40vw;
-    height: 10vh;
+    height: 6vw;
 }
 
 main{
@@ -115,6 +115,22 @@ a{
     font-family: "ninjaNaruto";
 }
 
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    body{
+        height: 1750px;
+    }
+    #personagens{
+        width: 60vw;
+    }
+    }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+        height: 2650px;
+    }
+    #personagens{
+        width: 80vw;
+    }
+    }
 
 
