@@ -163,12 +163,12 @@ const verificaHokage = (obj) => {
   }
 };
 
-verificaHokage(naruto);
-verificaHokage(kakashi);
-verificaHokage(minato);
-verificaHokage(itachi);
-verificaHokage(jiraia);
-verificaHokage(sasuke);
+// verificaHokage(naruto);
+// verificaHokage(kakashi);
+// verificaHokage(minato);
+// verificaHokage(itachi);
+// verificaHokage(jiraia);
+// verificaHokage(sasuke);
 
 // exercício 5 imprimindo relatório dos itens com valor true
 console.log("------------ IMPRIMINDO RELATÓRIO DOS ITENS COM VALOR TRUE -------------")
@@ -197,12 +197,12 @@ const relatorio = (obj) => {
 };
 console.log("------------ IMPRIMINDO RELATÓRIO INDIVIDUAL DE CADA ITEM -------------")
 
-relatorio(naruto);
-relatorio(minato);
-relatorio(kakashi);
-relatorio(itachi);
-relatorio(jiraia);
-relatorio(sasuke);
+// relatorio(naruto);
+// relatorio(minato);
+// relatorio(kakashi);
+// relatorio(itachi);
+// relatorio(jiraia);
+// relatorio(sasuke);
 
 // exercícios 6.2 filtrando e imprimindo o objeto, conforme os parâmetros passados.
 
@@ -221,10 +221,10 @@ const funcaoFiltro = (array, string) => {
   }
 };
 console.log("------------ IMPRIMINDO CONFORME PARÂMETRO PASSADO -------------")
-console.log(funcaoFiltro(arrayDosHokages, "kakashi"));
-console.log(funcaoFiltro(arrayDosHokages, "naruto"));
-console.log(funcaoFiltro(arrayDosHokages, "itachi"));
-console.log(funcaoFiltro(arrayDosHokages, "minato"));
-console.log(funcaoFiltro(arrayDosHokages, "jiraia"));
-console.log(funcaoFiltro(arrayDosHokages, "sasuke"));
+// console.log(funcaoFiltro(arrayDosHokages, "kakashi"));
+// console.log(funcaoFiltro(arrayDosHokages, "naruto"));
+// console.log(funcaoFiltro(arrayDosHokages, "itachi"));
+// console.log(funcaoFiltro(arrayDosHokages, "minato"));
+// console.log(funcaoFiltro(arrayDosHokages, "jiraia"));
+// console.log(funcaoFiltro(arrayDosHokages, "sasuke"));
 
